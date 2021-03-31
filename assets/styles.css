@@ -27,7 +27,6 @@ h1 {
 .top-bar a {
     color: green;
 }
-
-.orbit-bullets {
-    color: green;
+.leaflet-control-container {
+    margin-top: 15%;
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Hike 5280</title>
     <!-- Compressed CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
@@ -13,15 +14,22 @@
     <!-- Compressed JavaScript -->
 
     <link rel="stylesheet" href="assets/styles.css" />
+
+    <!-- leaflet and mapbox links -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.13.1/mapbox-gl.js" integrity="sha512-cgdTppqjf6a7zwsrK44mF2PTBM9yaIJReLtFDZprtTlrkv+UFR65jSQQdY9/bNdh4f26D7mIvc2heWSznLd+KQ==" crossorigin="anonymous"></script>
 </head>
 <nav>
     <div class="top-bar">
         <div class="top-bar-left">
             <ul class="dropdown menu" data-dropdown-menu>
+
                 <!-- <li class="menu-text">Hike 5280</li> -->
                 <li> <a href="index.html" target="blank">Hike 5280</a> </li>
                 <li><a href="#">Explore Trails</a></li>
                 <li><a href="#">About us</a></li>
+
             </ul>
         </div>
         <div class="top-bar-right">
@@ -34,6 +42,7 @@
 </nav>
 
 <body>
+
     <div id="mapid"><img src="./assets/img/map img.jpg" class="map"> This is where our map will go! </div>
     <div class="container">
         <div class="card" style="width: 300px;">
@@ -46,11 +55,25 @@
                 <p>It has an easy to override visual style, and is appropriately subdued.</p>
             </div>
         </div>
-       
+
+    <div id="mapid"><img src="./assets/img/map img.jpg" class="map"></div>
+    <div class="container" id='map-size'>
+    <div class="card" style="width: 200px;">
+        <div class="card-divider">
+            Trail 1
+        </div>
+        <img src="./assets/img/hiking pic.jpg">
+        <div class="card-section">
+            <h4>This is a card.</h4>
+            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        </div>
+    </div>
+  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
         integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/script.js"></script>
+    <script type="text/javascript" src="assets/searchlist.js"></script>
 </body>
 
 </html>
