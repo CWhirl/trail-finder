@@ -1,6 +1,4 @@
-h1 {
-    color:aqua;
-}
+
 .card{ 
     display:inline-flex;
     padding: 10px ;
@@ -26,7 +24,14 @@ h1 {
 
 .top-bar a {
     color: green;
+    font-size: 20px;
 }
+
 .leaflet-control-container {
     margin-top: 15%;
+}
+
+h1 {
+    color: green;
+    font-size: 40px;
 }
