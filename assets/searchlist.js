@@ -4,7 +4,7 @@ var trail0 = {
     lat: 38.71363894781356,
     lon:  -106.23284433353807, 
     sourceURL: "https://dayhikesneardenver.com/agnes-vaille-falls-hike/",
-    image: "assets/trailPictures/agnesVailleFalls.jpg"
+    image: "assets/trailPictures/AgnesVailleFalls.jpg"
 };
 
 // CAVE TRAIL AT CASTLEWOOD CANYON
@@ -47,7 +47,7 @@ var trail5 = {
     lat: 39.94865790179421,
     lon:  -105.25743634842041, 
     sourceURL: "https://dayhikesneardenver.com/bear-peak-near-boulder/",
-    image: "assets/trailPictures/bearPeak.jpg"
+    image: "assets/trailPictures/BearPeak.jpg"
 };
 //Four-lakes-and-waterfall-loop-rocky-mountain-national-park
 var trail6 = {
@@ -120,7 +120,7 @@ var trail14 = {
     lat : 39.84353838629611,
     lon: -105.40434703353188,
     sourceURL:"https://dayhikesneardenver.com/horseshoe-trail-golden-gate-canyon-park/",
-    image: "assets/trailPictures/horseshoeTrailGoldenGateCanyonPark.jpg"
+    image: "assets/trailPictures/HorseshoeTrailGoldenGateCanyonPark.jpg"
 };
  //Loveland Pass   
 var trail15 = {
