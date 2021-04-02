@@ -1,15 +1,14 @@
-
-.card{ 
-    display:inline-flex;
-    padding: 10px ;
+.card {
+    display: inline-flex;
+    padding: 10px;
     margin: 20px;
-    background-color:#00802b;
+    background-color: #00802b;
     justify-content: center;
- 
 }
-.container{
+
+.container {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
 }
@@ -28,7 +27,7 @@
 }
 
 .leaflet-control-container {
-    margin-top: 15%;
+    margin-top: 25%;
 }
 
 h1 {
