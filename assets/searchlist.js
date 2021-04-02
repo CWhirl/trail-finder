@@ -4,7 +4,7 @@ var trail0 = {
     lat: 38.71363894781356,
     lon:  -106.23284433353807, 
     sourceURL: "https://dayhikesneardenver.com/agnes-vaille-falls-hike/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/agnesVailleFalls.jpg"
 };
 
 // CAVE TRAIL AT CASTLEWOOD CANYON
@@ -13,7 +13,7 @@ var trail1 = {
     lat: 39.35473428425068,
     lon: -104.76567824164951,
     sourceURL: "https://dayhikesneardenver.com/cave-trail-castlewood-canyon/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/CastlewoodCanyon.jpg"
 };
 
 //Kenosha-pass-hike
@@ -22,7 +22,7 @@ var trail2 = {
     lat: 39.428147834862216,
     lon:  -105.75537822939526, 
     sourceURL: "https://dayhikesneardenver.com/kenosha-pass-hike/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/Kenosha.jpg"
 };  
 
 //Silver-Dollar-murray-lakes-trail
@@ -31,7 +31,7 @@ var trail3 = {
     lat: 39.63383387963697,
     lon:  -105.72499156161547, 
     sourceURL: "https://dayhikesneardenver.com/silver-dollar-murray-lakes-trail/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/SliverDollarLakes.jpg"
 };
 //Chimney-Gulch-Trail-windy-saddle-park
 var trail4 = {
@@ -39,7 +39,7 @@ var trail4 = {
     lat: 39.754775710150405,
     lon:  -105.2301925078648, 
     sourceURL: "https://dayhikesneardenver.com/chimney-gulch-trail-windy-saddle-park/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/ChimneyGulchTrail.jpg"
 };
 //Bear-peak-near-boulder
 var trail5 = {
@@ -47,7 +47,7 @@ var trail5 = {
     lat: 39.94865790179421,
     lon:  -105.25743634842041, 
     sourceURL: "https://dayhikesneardenver.com/bear-peak-near-boulder/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/BearPeak.jpg"
 };
 //Four-lakes-and-waterfall-loop-rocky-mountain-national-park
 var trail6 = {
@@ -55,7 +55,7 @@ var trail6 = {
     lat: 40.31942120417979,
     lon:  -105.64347195009509, 
     sourceURL: "https://dayhikesneardenver.com/4-lakes-and-waterfall-loop-rocky-mountain-national-park",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/FourLakesLoop.jpg"
 };
 //Elk Valley Trail in Roxborough State park 
 var trail7 = {
@@ -63,7 +63,7 @@ var trail7 = {
     lat: 39.438441022206185,
     lon: -105.06845996764503,
     sourceURL: "https://dayhikesneardenver.com/elk-valley-trail-roxborough-state-park/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/ElkValleyRoxboroughTrail.jpg"
 };
 
 //Chautauqua-loop-boulder-colorado
@@ -72,7 +72,7 @@ var trail8 = {
     lat: 40.035893195528004,
     lon:  -105.27624178470296, 
     sourceURL: "https://dayhikesneardenver.com/chautauqua-loop-boulder-colorado/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/ChautauquaLoop.jpg"
 };
 //Rocky Mountain National Park
 var trail9 = {
@@ -80,7 +80,7 @@ var trail9 = {
     lat : 40.208710255449716,
     lon: -105.56656213326917,
     sourceURL:"https://dayhikesneardenver.com/bluebird-lake-hike-rocky-mountain-national-park/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/BluebirdLakeRockyMountainNationalPark.jpg"
 };
  //Paint Mine Hike
 var trail10 = {
@@ -88,7 +88,7 @@ var trail10 = {
     lat : 39.02405554843337,
     lon: -104.27112178045748,
     sourceURL:"https://dayhikesneardenver.com/paint-mines-hike-near-colorado-springs/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/PaintMinesHike.jpg"
 };
  //Maroon Bells
 var trail11 = {
@@ -96,7 +96,7 @@ var trail11 = {
     lat : 39.11677081615352,
     lon: -106.93253885267049,
     sourceURL:"https://dayhikesneardenver.com/maroon-bells-colorado/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/MaroonBellsTrail.jpg"
 };
  //Indian-creek loop
 var trail12 = {
@@ -104,7 +104,7 @@ var trail12 = {
     lat : 39.380205124755314, 
     lon: -105.10505170459511,  
     sourceURL:"https://dayhikesneardenver.com/indian-creek-loop-hike/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/IndianCreekTrail.jpg"
 };
  //Santa fe Palmer lake
 var trail13 = {
@@ -112,7 +112,7 @@ var trail13 = {
     lat : 39.123760838766586, 
     lon: -104.91118009019083,
     sourceURL:"https://dayhikesneardenver.com/santa-fe-regional-trail-palmer-lake/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/SantaFeRegionalTrail.jpg"
 };
  //Golden Gate Canyon
 var trail14 = {
@@ -120,7 +120,7 @@ var trail14 = {
     lat : 39.84353838629611,
     lon: -105.40434703353188,
     sourceURL:"https://dayhikesneardenver.com/horseshoe-trail-golden-gate-canyon-park/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/HorseshoeTrailGoldenGateCanyonPark.jpg"
 };
  //Loveland Pass   
 var trail15 = {
@@ -128,7 +128,7 @@ var trail15 = {
     lat : 39.6789050490315,
     lon: -105.87842037951032,
     sourceURL:"https://dayhikesneardenver.com/mt-sniktau-hike-loveland-pass/",
-    image: "assets/img/placeholder_220.png"
+    image: "assets/trailPictures/Mt.SniktauLovelandPass.jpg"
 };
     
 
