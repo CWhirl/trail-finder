@@ -147,7 +147,7 @@ var lat = 39.7392;
 var lon = -104.9903;
 
 var mymap = L.map('mapid').setView([lat, lon], 13);
-var marker = L.marker([lat, lon]).addTo(mymap);
+
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -165,7 +165,7 @@ function initCards () {
         // This line should make a div, set the image as the background and pack it into the above div
         $(`<div class="card-divider">${trailsArray[index].name}</div>`).appendTo($(`#trail${index}`));
         // This line should make an image
-        //$(`<img ></img>`).appendTo($(`#trail${index}`));
+        $(`<img src=${trailsArray[index].image}></img>`).appendTo($(`#trail${index}`));
         // This line should make a div, populate it with the URL to a live website with more info on the trail.
         $(`<a href=${trailsArray[index].sourceURL} class="card-section"> More Info </a>`).appendTo($(`#trail${index}`));
 
