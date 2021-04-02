@@ -4,7 +4,7 @@ var trail0 = {
     lat: 38.71363894781356,
     lon:  -106.23284433353807, 
     sourceURL: "https://dayhikesneardenver.com/agnes-vaille-falls-hike/",
-    image: "assets/trailPictures/agnesVailleFalls.jpg"
+    image: "assets/trailPictures/AgnesVailleFalls.jpg"
 };
 
 // CAVE TRAIL AT CASTLEWOOD CANYON
