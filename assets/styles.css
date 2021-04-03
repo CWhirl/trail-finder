@@ -35,6 +35,12 @@ h1 {
     font-size: 40px;
 }
 
-a.card-section {
+a {
     color: white;
+}
+
+.card-divider {
+    cursor: pointer;
+    color: green;
+    background-color: white;
 }

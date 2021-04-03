@@ -171,7 +171,7 @@ function initCards () {
         $(`<img src=${trailsArray[index].image}></img>`).appendTo($(`#trail${index}`));
 
         // This line should make a div, populate it with the URL to a live website with more info on the trail.
-        $(`<a href=${trailsArray[index].sourceURL} class="card-section"> More Info </a>`).appendTo($(`#trail${index}`));
+        $(`<a href=${trailsArray[index].sourceURL} class="card-section"> Explore More About This Hike </a>`).appendTo($(`#trail${index}`));
 
         //This creates markers on the map for each trail
         var marker = L.marker([trailsArray[index].lat, trailsArray[index].lon]).addTo(mymap);
